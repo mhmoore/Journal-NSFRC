@@ -11,6 +11,7 @@ import CoreData
 
 enum CoreDataStack {
     
+    /// creating the NSPersistentContainer gave us everything within the Stack, including Persistent Store and MOC, 
     static let container: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "Journal_NSFRC")
         container.loadPersistentStores(completionHandler: { (_, error) in

@@ -18,7 +18,7 @@ class EntryDetailViewController: UIViewController {
     @IBOutlet weak var clearButton: UIButton!
     
     
-    override func viewDidLoad() {
+    override func viewDidLoad() { 
         super.viewDidLoad()
         designClearButton()
         updateViews()
